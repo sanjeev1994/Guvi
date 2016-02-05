@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF11B41F1C5D4CE7005DDB38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF11B41E1C5D4CE7005DDB38 /* main.m */; };
+		AF11B4221C5D4CE7005DDB38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF11B4211C5D4CE7005DDB38 /* AppDelegate.m */; };
+		AF11B4251C5D4CE7005DDB38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF11B4241C5D4CE7005DDB38 /* ViewController.m */; };
+		AF11B4281C5D4CE7005DDB38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF11B4261C5D4CE7005DDB38 /* Main.storyboard */; };
+		AF11B42A1C5D4CE7005DDB38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF11B4291C5D4CE7005DDB38 /* Assets.xcassets */; };
+		AF11B42D1C5D4CE7005DDB38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF11B42B1C5D4CE7005DDB38 /* LaunchScreen.storyboard */; };
+		AF11B4381C5D4CE7005DDB38 /* MeetutuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF11B4371C5D4CE7005DDB38 /* MeetutuTests.m */; };
+		AF11B4431C5D4CE7005DDB38 /* MeetutuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF11B4421C5D4CE7005DDB38 /* MeetutuUITests.m */; };
+		AF11B4551C5F1A10005DDB38 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF11B4541C5F1A10005DDB38 /* LoginViewController.m */; };
+		AF11B4581C5F246D005DDB38 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF11B4571C5F246D005DDB38 /* ForgotPasswordViewController.m */; };
+		AF11B45B1C5F3777005DDB38 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF11B45A1C5F3777005DDB38 /* SignupViewController.m */; };
+		AF11B45D1C5F84C5005DDB38 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF11B45C1C5F84C5005DDB38 /* MessageUI.framework */; };
+		AF11B45F1C5FBAB5005DDB38 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF11B45E1C5FBAB5005DDB38 /* CoreLocation.framework */; };
+		AFCD7B221C60595900EADEB4 /* meetutuutility.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCD7B211C60595900EADEB4 /* meetutuutility.m */; };
+		E837329AF027ED427A627D9D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7EE4D4D9E3BFF40798016C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF11B4341C5D4CE7005DDB38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF11B4121C5D4CE7005DDB38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF11B4191C5D4CE7005DDB38;
+			remoteInfo = Meetutu;
+		};
+		AF11B43F1C5D4CE7005DDB38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF11B4121C5D4CE7005DDB38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF11B4191C5D4CE7005DDB38;
+			remoteInfo = Meetutu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B7EE4D4D9E3BFF40798016C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED4EDC80694FF7335E54D0B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7E72A778E11595035B15AEB4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AF11B41A1C5D4CE7005DDB38 /* Meetutu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meetutu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF11B41E1C5D4CE7005DDB38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF11B4201C5D4CE7005DDB38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF11B4211C5D4CE7005DDB38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF11B4231C5D4CE7005DDB38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF11B4241C5D4CE7005DDB38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF11B4271C5D4CE7005DDB38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF11B4291C5D4CE7005DDB38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF11B42C1C5D4CE7005DDB38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF11B42E1C5D4CE7005DDB38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF11B4331C5D4CE7005DDB38 /* MeetutuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetutuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF11B4371C5D4CE7005DDB38 /* MeetutuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetutuTests.m; sourceTree = "<group>"; };
+		AF11B4391C5D4CE7005DDB38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF11B43E1C5D4CE7005DDB38 /* MeetutuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetutuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF11B4421C5D4CE7005DDB38 /* MeetutuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetutuUITests.m; sourceTree = "<group>"; };
+		AF11B4441C5D4CE7005DDB38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF11B4531C5F1A10005DDB38 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		AF11B4541C5F1A10005DDB38 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		AF11B4561C5F246D005DDB38 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordViewController.h; sourceTree = "<group>"; };
+		AF11B4571C5F246D005DDB38 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordViewController.m; sourceTree = "<group>"; };
+		AF11B4591C5F3777005DDB38 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupViewController.h; path = ../SignupViewController.h; sourceTree = "<group>"; };
+		AF11B45A1C5F3777005DDB38 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupViewController.m; path = ../SignupViewController.m; sourceTree = "<group>"; };
+		AF11B45C1C5F84C5005DDB38 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		AF11B45E1C5FBAB5005DDB38 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AFCD7B201C60595900EADEB4 /* meetutuutility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = meetutuutility.h; path = ../meetutuutility.h; sourceTree = "<group>"; };
+		AFCD7B211C60595900EADEB4 /* meetutuutility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = meetutuutility.m; path = ../meetutuutility.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF11B4171C5D4CE7005DDB38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF11B45F1C5FBAB5005DDB38 /* CoreLocation.framework in Frameworks */,
+				AF11B45D1C5F84C5005DDB38 /* MessageUI.framework in Frameworks */,
+				E837329AF027ED427A627D9D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF11B4301C5D4CE7005DDB38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF11B43B1C5D4CE7005DDB38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E7B2B5D9ADF798981F710A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF11B45E1C5FBAB5005DDB38 /* CoreLocation.framework */,
+				AF11B45C1C5F84C5005DDB38 /* MessageUI.framework */,
+				0B7EE4D4D9E3BFF40798016C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9683E3672B867C079A463E08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1ED4EDC80694FF7335E54D0B /* Pods.debug.xcconfig */,
+				7E72A778E11595035B15AEB4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF11B4111C5D4CE7005DDB38 = {
+			isa = PBXGroup;
+			children = (
+				AF11B41C1C5D4CE7005DDB38 /* Meetutu */,
+				AF11B4361C5D4CE7005DDB38 /* MeetutuTests */,
+				AF11B4411C5D4CE7005DDB38 /* MeetutuUITests */,
+				AF11B41B1C5D4CE7005DDB38 /* Products */,
+				9683E3672B867C079A463E08 /* Pods */,
+				7E7B2B5D9ADF798981F710A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF11B41B1C5D4CE7005DDB38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF11B41A1C5D4CE7005DDB38 /* Meetutu.app */,
+				AF11B4331C5D4CE7005DDB38 /* MeetutuTests.xctest */,
+				AF11B43E1C5D4CE7005DDB38 /* MeetutuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF11B41C1C5D4CE7005DDB38 /* Meetutu */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD7B201C60595900EADEB4 /* meetutuutility.h */,
+				AFCD7B211C60595900EADEB4 /* meetutuutility.m */,
+				AF11B4591C5F3777005DDB38 /* SignupViewController.h */,
+				AF11B45A1C5F3777005DDB38 /* SignupViewController.m */,
+				AF11B4201C5D4CE7005DDB38 /* AppDelegate.h */,
+				AF11B4211C5D4CE7005DDB38 /* AppDelegate.m */,
+				AF11B4231C5D4CE7005DDB38 /* ViewController.h */,
+				AF11B4241C5D4CE7005DDB38 /* ViewController.m */,
+				AF11B4261C5D4CE7005DDB38 /* Main.storyboard */,
+				AF11B4291C5D4CE7005DDB38 /* Assets.xcassets */,
+				AF11B42B1C5D4CE7005DDB38 /* LaunchScreen.storyboard */,
+				AF11B42E1C5D4CE7005DDB38 /* Info.plist */,
+				AF11B41D1C5D4CE7005DDB38 /* Supporting Files */,
+				AF11B4531C5F1A10005DDB38 /* LoginViewController.h */,
+				AF11B4541C5F1A10005DDB38 /* LoginViewController.m */,
+				AF11B4561C5F246D005DDB38 /* ForgotPasswordViewController.h */,
+				AF11B4571C5F246D005DDB38 /* ForgotPasswordViewController.m */,
+			);
+			path = Meetutu;
+			sourceTree = "<group>";
+		};
+		AF11B41D1C5D4CE7005DDB38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF11B41E1C5D4CE7005DDB38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF11B4361C5D4CE7005DDB38 /* MeetutuTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF11B4371C5D4CE7005DDB38 /* MeetutuTests.m */,
+				AF11B4391C5D4CE7005DDB38 /* Info.plist */,
+			);
+			path = MeetutuTests;
+			sourceTree = "<group>";
+		};
+		AF11B4411C5D4CE7005DDB38 /* MeetutuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF11B4421C5D4CE7005DDB38 /* MeetutuUITests.m */,
+				AF11B4441C5D4CE7005DDB38 /* Info.plist */,
+			);
+			path = MeetutuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF11B4191C5D4CE7005DDB38 /* Meetutu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF11B4471C5D4CE7005DDB38 /* Build configuration list for PBXNativeTarget "Meetutu" */;
+			buildPhases = (
+				E44748B592B25FA595207B85 /* Check Pods Manifest.lock */,
+				AF11B4161C5D4CE7005DDB38 /* Sources */,
+				AF11B4171C5D4CE7005DDB38 /* Frameworks */,
+				AF11B4181C5D4CE7005DDB38 /* Resources */,
+				3AEE08E0147403791E7ED167 /* Embed Pods Frameworks */,
+				7B5F2AD44807FB0BEDB66022 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meetutu;
+			productName = Meetutu;
+			productReference = AF11B41A1C5D4CE7005DDB38 /* Meetutu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF11B4321C5D4CE7005DDB38 /* MeetutuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF11B44A1C5D4CE7005DDB38 /* Build configuration list for PBXNativeTarget "MeetutuTests" */;
+			buildPhases = (
+				AF11B42F1C5D4CE7005DDB38 /* Sources */,
+				AF11B4301C5D4CE7005DDB38 /* Frameworks */,
+				AF11B4311C5D4CE7005DDB38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF11B4351C5D4CE7005DDB38 /* PBXTargetDependency */,
+			);
+			name = MeetutuTests;
+			productName = MeetutuTests;
+			productReference = AF11B4331C5D4CE7005DDB38 /* MeetutuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF11B43D1C5D4CE7005DDB38 /* MeetutuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF11B44D1C5D4CE7005DDB38 /* Build configuration list for PBXNativeTarget "MeetutuUITests" */;
+			buildPhases = (
+				AF11B43A1C5D4CE7005DDB38 /* Sources */,
+				AF11B43B1C5D4CE7005DDB38 /* Frameworks */,
+				AF11B43C1C5D4CE7005DDB38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF11B4401C5D4CE7005DDB38 /* PBXTargetDependency */,
+			);
+			name = MeetutuUITests;
+			productName = MeetutuUITests;
+			productReference = AF11B43E1C5D4CE7005DDB38 /* MeetutuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF11B4121C5D4CE7005DDB38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "sanjeev s";
+				TargetAttributes = {
+					AF11B4191C5D4CE7005DDB38 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AF11B4321C5D4CE7005DDB38 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AF11B4191C5D4CE7005DDB38;
+					};
+					AF11B43D1C5D4CE7005DDB38 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AF11B4191C5D4CE7005DDB38;
+					};
+				};
+			};
+			buildConfigurationList = AF11B4151C5D4CE7005DDB38 /* Build configuration list for PBXProject "Meetutu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF11B4111C5D4CE7005DDB38;
+			productRefGroup = AF11B41B1C5D4CE7005DDB38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF11B4191C5D4CE7005DDB38 /* Meetutu */,
+				AF11B4321C5D4CE7005DDB38 /* MeetutuTests */,
+				AF11B43D1C5D4CE7005DDB38 /* MeetutuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF11B4181C5D4CE7005DDB38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF11B42D1C5D4CE7005DDB38 /* LaunchScreen.storyboard in Resources */,
+				AF11B42A1C5D4CE7005DDB38 /* Assets.xcassets in Resources */,
+				AF11B4281C5D4CE7005DDB38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF11B4311C5D4CE7005DDB38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF11B43C1C5D4CE7005DDB38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AEE08E0147403791E7ED167 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B5F2AD44807FB0BEDB66022 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E44748B592B25FA595207B85 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF11B4161C5D4CE7005DDB38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF11B45B1C5F3777005DDB38 /* SignupViewController.m in Sources */,
+				AF11B4551C5F1A10005DDB38 /* LoginViewController.m in Sources */,
+				AF11B4251C5D4CE7005DDB38 /* ViewController.m in Sources */,
+				AFCD7B221C60595900EADEB4 /* meetutuutility.m in Sources */,
+				AF11B4221C5D4CE7005DDB38 /* AppDelegate.m in Sources */,
+				AF11B4581C5F246D005DDB38 /* ForgotPasswordViewController.m in Sources */,
+				AF11B41F1C5D4CE7005DDB38 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF11B42F1C5D4CE7005DDB38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF11B4381C5D4CE7005DDB38 /* MeetutuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF11B43A1C5D4CE7005DDB38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF11B4431C5D4CE7005DDB38 /* MeetutuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF11B4351C5D4CE7005DDB38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF11B4191C5D4CE7005DDB38 /* Meetutu */;
+			targetProxy = AF11B4341C5D4CE7005DDB38 /* PBXContainerItemProxy */;
+		};
+		AF11B4401C5D4CE7005DDB38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF11B4191C5D4CE7005DDB38 /* Meetutu */;
+			targetProxy = AF11B43F1C5D4CE7005DDB38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF11B4261C5D4CE7005DDB38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF11B4271C5D4CE7005DDB38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF11B42B1C5D4CE7005DDB38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF11B42C1C5D4CE7005DDB38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF11B4451C5D4CE7005DDB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF11B4461C5D4CE7005DDB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF11B4481C5D4CE7005DDB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED4EDC80694FF7335E54D0B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Meetutu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-lPods",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkube.Meetutu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF11B4491C5D4CE7005DDB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E72A778E11595035B15AEB4 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Meetutu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-lPods",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkube.Meetutu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF11B44B1C5D4CE7005DDB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeetutuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mkube.MeetutuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meetutu.app/Meetutu";
+			};
+			name = Debug;
+		};
+		AF11B44C1C5D4CE7005DDB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeetutuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mkube.MeetutuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meetutu.app/Meetutu";
+			};
+			name = Release;
+		};
+		AF11B44E1C5D4CE7005DDB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeetutuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mkube.MeetutuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Meetutu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AF11B44F1C5D4CE7005DDB38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeetutuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mkube.MeetutuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Meetutu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF11B4151C5D4CE7005DDB38 /* Build configuration list for PBXProject "Meetutu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF11B4451C5D4CE7005DDB38 /* Debug */,
+				AF11B4461C5D4CE7005DDB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF11B4471C5D4CE7005DDB38 /* Build configuration list for PBXNativeTarget "Meetutu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF11B4481C5D4CE7005DDB38 /* Debug */,
+				AF11B4491C5D4CE7005DDB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF11B44A1C5D4CE7005DDB38 /* Build configuration list for PBXNativeTarget "MeetutuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF11B44B1C5D4CE7005DDB38 /* Debug */,
+				AF11B44C1C5D4CE7005DDB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF11B44D1C5D4CE7005DDB38 /* Build configuration list for PBXNativeTarget "MeetutuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF11B44E1C5D4CE7005DDB38 /* Debug */,
+				AF11B44F1C5D4CE7005DDB38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF11B4121C5D4CE7005DDB38 /* Project object */;
+}
